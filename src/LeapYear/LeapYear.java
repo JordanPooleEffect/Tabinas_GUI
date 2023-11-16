@@ -10,6 +10,7 @@ public class LeapYear extends JFrame{
     private JTextField tfYear;
     private JButton btnCheckYear;
 
+
     public LeapYear() {
         btnCheckYear.addActionListener(e -> {
             int year = Integer.parseInt(tfYear.getText());
